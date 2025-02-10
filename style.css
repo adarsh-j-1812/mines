@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+
+.main-container{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.playarea{
+    width: 50vw;
+    height: 50vh;
+    background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sqs{
+    background-color: aliceblue;
+    transition: all 0.3s cubic-bezier(0.54, 1.23, 0.76, 1.26);
+    transform-origin: center;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 10px;
+}
+
+.sqs:hover{
+    background-color: blueviolet;
+    scale: 1.05;
+}
