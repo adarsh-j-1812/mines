@@ -36,8 +36,8 @@ body{
 } */
 
 .playarea{
-    width: 50vw;
-    height: 50vw;
+    width: 40vw;
+    height: 40vw;
     background-color: pink;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
