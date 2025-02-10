@@ -1,10 +1,10 @@
 let sqs = document.getElementsByClassName("sqs");
-let ale = prompt("Enter the number of mines");
+let ale = prompt("Enter the number of mines(Maximum 35)");
 let mines = [];
 let rand;
 
 for (let i = 0; mines.length < ale; i++) {
-  rand = Math.floor(Math.random() * (35 + 0 - 0));
+  rand = Math.floor(Math.random() * (36 + 0)-0);
   if (!mines.includes(rand)) {
     mines.push(rand);
   }
